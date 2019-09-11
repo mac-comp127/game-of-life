@@ -7,7 +7,7 @@ import java.io.*;
  * 
  * @author Michael Ekstrand <ekstrand@cs.umn.edu>
  *
- * This class uses a RuleSet to implement a board for the game of edu.macalester.comp124.life.  It
+ * This class uses a RuleSet to implement a board for the game of edu.macalester.comp127.life.  It
  * implements a standard non-wrapping Life board, with the edges of the board
  * bordered by dead cells.
  */
