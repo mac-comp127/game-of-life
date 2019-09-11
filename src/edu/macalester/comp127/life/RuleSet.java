@@ -1,4 +1,4 @@
-package edu.macalester.comp124.life;
+package edu.macalester.comp127.life;
 
 /**
  * This interface defines the interface between the Life engine and the set of

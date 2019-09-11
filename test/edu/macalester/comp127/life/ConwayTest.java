@@ -1,4 +1,4 @@
-package edu.macalester.comp124.life;
+package edu.macalester.comp127.life;
 
 import org.junit.Before;
 import org.junit.Test;

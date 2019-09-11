@@ -1,4 +1,4 @@
-Comp 124: Game of Life Lab
+Comp 127: Game of Life Lab
 ====
 
 This lab was originally developed by Michael Ekstrand (ekstrand@cs.umn.edu) and is used with his permission.
