@@ -2,7 +2,7 @@ Comp 127: Game of Life Lab
 ====
 
 This lab was originally developed by Michael Ekstrand (michaelekstrand@boisestate.edu) and is used with his permission.
-Shilad Sen brought it to Macalester and adapted it for Comp 124. Paul Cantrell rewrote the instructions for GitHub and added a bit of flair.
+Shilad Sen brought it to Macalester and adapted it for Comp 127. Paul Cantrell rewrote the instructions for GitHub and added a bit of flair.
 
 Thanks to everybody who contributed!
 
@@ -38,7 +38,7 @@ This project includes **unit tests**. They are code that tests the correctness o
 
 Look for `BoardTest` and `ConwayTest`, and take a minute to understand their stucture. You will see many individual test cases, each of which has a structure like: “When I do _X_, the result should be _Y_.”
 
-Run the tests by right-clicking on the `124-game-of-life-lab` module in the left panel, and choosing “Run All Tests.” You should see 4 tests failing. That is because the rules are not implemented yet!
+Run the tests by right-clicking on the `127-game-of-life-lab` module in the left panel, and choosing “Run All Tests.” You should see 4 tests failing. That is because the rules are not implemented yet!
 
 This is a common and effective approach to development: write some tests that describe what you intend, then write the code that will make those tests pass.
 
