@@ -38,7 +38,7 @@ This project includes **unit tests**. They are code that tests the correctness o
 
 Look for `BoardTest` and `ConwayTest`, and take a minute to understand their stucture. You will see many individual test cases, each of which has a structure like: “When I do _X_, the result should be _Y_.”
 
-Run the tests by right-clicking on the `127-game-of-life-lab` module in the left panel, and choosing “Run All Tests.” You should see 4 tests failing. That is because the rules are not implemented yet!
+Run the tests by pressing command-shift-P (macOS) or ctrl-shift-P (Window), and searching for the command “Java: Run All Tests.” You should see 4 tests failing. That is because the rules are not implemented yet!
 
 This is a common and effective approach to development: write some tests that describe what you intend, then write the code that will make those tests pass.
 
@@ -56,7 +56,9 @@ When you think you’ve got it, try running the tests again. If they all pass, y
 Experimenting
 ---
 
-Once you have the rules implemented and the test cases pass, play with the game by right clicking the `MainWindow` class and running it as a Java application. It will present you with a game grid and some controls. Create an initial state by clicking various cells — clicking a cell toggles whether it is alive or dead. Then use the ‘Step’ button to run one generation, or the ‘Run’ button to start the simulation performing four generations per second. See if you can create simple shapes that move continuously. Try setting lots of cells randomly and see what happens.
+Once you have the rules implemented and the test cases pass, play with the game by right opening the `MainWindow` class, finding its `main` method, and clicking the “Run” link just above it.
+
+It will present you with a game grid and some controls. Create an initial state by clicking various cells. clicking a cell toggles whether it is alive or dead. Then use the ‘Step’ button to run one generation, or the ‘Run’ button to start the simulation performing four generations per second. See if you can create simple shapes that move continuously. Try setting lots of cells randomly and see what happens.
 
 
 HighLife
