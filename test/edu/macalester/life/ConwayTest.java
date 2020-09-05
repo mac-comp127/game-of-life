@@ -1,4 +1,4 @@
-package edu.macalester.comp127.life;
+package edu.macalester.life;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -31,20 +31,18 @@ public class ConwayTest {
     
     /**
      * Test that an all-dead neighborhood results in the cell staying dead.
-     *
      */
     @Test
-    public void testNoOp() {
+    public void noLivingNeighborsStaysDead() {
         boolean result = rules.applyRules(false, 0);
         assertFalse(result);
     }
     
     /**
      * Test that 3 neighbors bring a cell to edu.macalester.comp124.life.
-     *
      */
     @Test
-    public void testComeToLife() {
+    public void cellComesToLife() {
         assertTrue(rules.applyRules(false, 3));
     }
     
@@ -53,7 +51,7 @@ public class ConwayTest {
      * stays dead.
      */
     @Test
-    public void testStayDead() {
+    public void cellStaysDead() {
         assertFalse(rules.applyRules(false, 2));
         assertFalse(rules.applyRules(false, 4));
         assertFalse(rules.applyRules(false, 6));
@@ -62,20 +60,18 @@ public class ConwayTest {
     
     /**
      * Test that 2 or 3 neighbors keep a cell alive.
-     *
      */
     @Test
-    public void testStayAlive() {
+    public void cellStaysAlive() {
         assertTrue(rules.applyRules(true, 2));
         assertTrue(rules.applyRules(true, 3));
     }
     
     /**
      * Test that a cell with 0 or 1 neighbors dies.
-     *
      */
     @Test
-    public void testLonely() {
+    public void lonelyCellDies() {
         assertFalse(rules.applyRules(true, 0));
         assertFalse(rules.applyRules(true, 1));
     }
@@ -90,7 +86,7 @@ public class ConwayTest {
      * 
      */
     @Test
-    public void testOvercrowd() {
+    public void overcrowdedCellDies() {
         assertFalse(rules.applyRules(true, 4));
         assertFalse(rules.applyRules(true, 7));
     }

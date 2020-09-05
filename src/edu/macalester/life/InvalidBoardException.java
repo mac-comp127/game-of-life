@@ -1,4 +1,4 @@
-package edu.macalester.comp127.life;
+package edu.macalester.life;
 
 /**
  * Thrown by GameBoard.load to indicate an invalid board file.

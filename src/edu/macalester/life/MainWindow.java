@@ -1,4 +1,4 @@
-package edu.macalester.comp127.life;
+package edu.macalester.life;
 
 import javax.swing.*;
 import javax.swing.event.ChangeEvent;

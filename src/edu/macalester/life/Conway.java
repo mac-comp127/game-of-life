@@ -1,4 +1,4 @@
-package edu.macalester.comp127.life;
+package edu.macalester.life;
 
 /**
  * RuleSet implementing Conway's Game of Life.

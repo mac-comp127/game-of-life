@@ -1,4 +1,4 @@
-package edu.macalester.comp127.life;
+package edu.macalester.life;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
@@ -92,9 +92,9 @@ public class BoardTest {
      * "spaceship", which moves.  It looks like this:
      * 
      * <pre>
-     *  X
-     *   X
-     * XXX
+     * ⬜️🟦⬜️
+     * ⬜️⬜️🟦
+     * 🟦🟦🟦
      * </pre>
      */
     @Test

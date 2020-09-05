@@ -1,4 +1,4 @@
-package edu.macalester.comp127.life;
+package edu.macalester.life;
 
 import javax.swing.*;
 import java.awt.*;
@@ -9,7 +9,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * JComponent to display and manipulate the edu.macalester.comp127.life grid.
+ * JComponent to display and manipulate the edu.macalester.life grid.
  * @author Michael Ekstrand <ekstrand@cs.umn.edu>
  *
  * This class handles display and manipulation of the Life grid on the screen.
