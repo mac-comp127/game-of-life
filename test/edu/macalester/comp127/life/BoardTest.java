@@ -1,16 +1,20 @@
 package edu.macalester.comp127.life;
 
-import org.junit.Before;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.fail;
 
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 /**
  * Test cases for the GameBoard class.
+ * 
  * @author Michael Ekstrand <ekstrand@cs.umn.edu>
  *
- * These tests test a number of basic operations on the GameBoard class.  They
- * are not exhaustive, but exercise it a fair amount. 
+ *         These tests test a number of basic operations on the GameBoard class. They are not
+ *         exhaustive, but exercise it a fair amount.
  */
 public class BoardTest {
 
@@ -19,7 +23,7 @@ public class BoardTest {
     /**
      * Set up the tests with a fresh 10x10 game board for each test.
      */
-    @Before
+    @BeforeEach
     public void setUp() throws Exception {
         board = new GameBoard(10,10);
     }

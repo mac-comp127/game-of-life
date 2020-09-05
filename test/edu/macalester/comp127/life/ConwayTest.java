@@ -1,9 +1,10 @@
 package edu.macalester.comp127.life;
 
-import org.junit.Before;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 /**
  * Test cases for the Conway ruleset
@@ -22,7 +23,7 @@ public class ConwayTest {
      * actions to be taken for every test. In this case, we start each test with
      * a clean instance of the Conway ruleset.
      */
-    @Before
+    @BeforeEach
     public void setUp() throws Exception {
         // create a new rule set
         rules = new Conway();
