@@ -103,19 +103,13 @@ public class LifeComponent extends JComponent {
             g2.fillRect(0, y, bw, GUTTER_SIZE);
         }
         
-        // The following line sets the paint color to black for all the filled cells
-        //g2.setPaint(Color.BLACK);
-        
         for (int x = 0; x < board.getWidth(); x++) {
             int xpos = cellDistance(x);
             
             for (int y = 0; y < board.getHeight(); y++) {
                 int ypos = cellDistance(y);
                 if (board.getCell(x, y)) {
-                    // The following lines are part of the optional work to change the colors based on the number of neighbors.
-                    int livingNeighborsCount = board.countLivingNeighbors(x, y);
-                    float maxNeighbors = 8.0f;
-                    Color color = new Color(0.0f, livingNeighborsCount/maxNeighbors, 0.0f);
+                    Color color = new Color(0.0f, 0.4f, 0.0f);  // The three numbers here are red, green, and blue color components
                     g2.setPaint(color);
 
                     g2.fillRect(xpos, ypos, CELL_SIZE, CELL_SIZE);
@@ -173,5 +167,4 @@ public class LifeComponent extends JComponent {
                 return d2;
         }
     }
-
 }
