@@ -19,6 +19,55 @@ The Game of Life is a mathematical “zero-player” game devised by John Conway
 
 For more information on Life, the [Wikipedia article on the topic](http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) is quite informative, as is [Martin Gardner's original article](http://ddi.cs.uni-potsdam.de/HyFISCH/Produzieren/lis_projekt/proj_gamelife/ConwayScientificAmerican.htm).
 
+Purpose
+---
+
+This is a getting-started kind of assignment, intended to:
+
+- Remind you of some basic Java programming syntax and how to work with
+  Java source code.
+- Practice with the VS Code development environment, in particular with
+  running and debugging code.
+- Learn about the basics of unit tests, how they work, and why we write
+  them.
+- One major feature of this assignment is that you will *write* very
+  little code, but you will need to *read* quite a bit of existing code
+  and *think* about it. Moreover, you won't need to completely
+  understand all the existing code in order to make your changes. This
+  kind of task -- making a small change to a large existing
+  codebase[^brownfield] -- is very common in software development and is
+  an import skill to develop.
+
+A secondary goal here is to:
+
+- Get your feet wet doing some experiments with modifying and writing
+  new code. The aim is for you to develop some autonomy and a spirit of
+  having fun and doing bold experiments.
+
+[^brownfield]: Changing an existing codebase in a way that preserves
+    most of its behavior, structure, and so on, is called "[brownfield
+    development](https://en.wikipedia.org/wiki/Brownfield_(software_development))"
+    in analogy to building construction on a site with existing
+    development or pollution that needs to be dealt with.
+
+    On the other hand, writing code
+    from scratch, starting from a blank slate, is called "greenfield
+    development", which uses the classical notion in capitalism that
+    land that humans have not altered yet -- it's still covered in green
+    plants -- is "unimproved"; that there is, in some sense, nothing
+    there yet. (Even though there obviously is something there, and that
+    the land does provide value, in the form of environmental services
+    and otherwise, that is not accounted for by traditional capitalist
+    markets and pricing mechanisms...)
+
+Assessment
+---
+
+This is a take-home assignment and we'll follow the rubric from the
+syllabus for these assignments.
+
+Review the checklist in SELF_EVALUATION.md to see if you've addressed
+the main purpose and goals.
 
 Overview
 ---
@@ -30,6 +79,10 @@ You will have the following tasks:
 - Implement Conway’s rules.
 - Create a new rule set implementing a simple variation on Conway’s rules.
 
+and some hopefully-fun optional tasks related to:
+
+- Altering the behavior of the graphical board.
+- Altering the underlying rules for the Game of Life
 
 Running the tests
 ---
