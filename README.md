@@ -66,8 +66,8 @@ Assessment
 This is a take-home assignment and we'll follow the rubric from the
 syllabus for these assignments.
 
-Review the checklist in SELF_EVALUATION.md to see if you've addressed
-the main purpose and goals.
+Review the checklist in [the self evaluation](SELF_EVALUATION.md) to see
+if you've addressed the main purpose and goals.
 
 Overview
 ---
