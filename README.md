@@ -57,6 +57,7 @@ Purpose
     markets and pricing mechanisms...)
 
 
+
 Overview
 ---
 
@@ -119,6 +120,45 @@ Change HighLife’s `getName()` method to return the string `"HighLife"`.
 Finally, once you have the rules implemented, open the `MainWindow.java` file. In this file, there is a block of code that has been placed in a comment with a note “Uncomment for HighLife”. Remove the comment symbols around this code.
 
 When you run `MainWindow`, you will now be able to select rule sets.  Have some fun with HighLife.
+
+Optional: Make up your own rules
+---
+
+Now you have implemented two rule sets for the Game of Life. But for
+both, we prescribed the exact rules; now, *you* get to experiment and
+play with the rules.
+
+Following the steps you used to add the HighLife rules, add another rule
+set. You can name it whatever you like; perhaps just `<yourname>Life`.
+(Or, if you're getting stuck, just modify the HighLife class and
+associated tests.)
+
+Now make up rules. Your rules can be *anything*. The `applyRules` method
+takes two parameters, and you can implement absolutely any kind of logic
+you want based on those. You can even do other things, such as having
+the output depend on the time, or be random, or ignore the parameters
+entirely, or...anything.
+
+Your goal here: find something interesting! If you have something
+interesting, share it with a neighbor, the preceptors, and your
+instructor. Maybe even the entire class: share your rule set. What are
+your rules? What did you try while coming up with them?? How did you
+decide on those rules? What makes them interesting?
+
+> [!TIP]
+> *This is what makes programming fun!* You can do anything! You
+> don't have to follow the rules -- not Conway's rules for the Game of
+> Life, not the rules for this activity imposed on you by your
+> instructors. You are bound by the physical limits of the computer and
+> the semantics of the Java programming language[^1], and beyond that,
+> only your own imagination. **Be bold! Have fun! Find beautiful things!**
+
+[^1]: Regarding "the limits of the semantics of Java" as a programming
+  language, you may later learn about [Turing
+  completeness](https://en.wikipedia.org/wiki/Turing_completeness) and
+  discover that, in some sense, *there aren't any limits whatsoever*.
+  Anything that can be computed can, in principle, be computed by Java.
+  (But one has to say exactly what is meant by "computing"...)
 
 
 Optional: Change the Speed
