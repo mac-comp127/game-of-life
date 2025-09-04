@@ -17,35 +17,31 @@ The Game of Life is a mathematical “zero-player” game devised by John Conway
 - If a dead cell has exactly 3 living neighbors, it will come to life (it is born).
 - Otherwise, the cell’s value will not be changed.
 
-For more information on Life, the [Wikipedia article on the topic](http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) is quite informative, as is [Martin Gardner's original article](http://ddi.cs.uni-potsdam.de/HyFISCH/Produzieren/lis_projekt/proj_gamelife/ConwayScientificAmerican.htm).
+This small set of rules gives rise to shockingly rich and complex results. For more information on Life, the [Wikipedia article on the topic](http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) is quite informative, as is [Martin Gardner's original article](http://ddi.cs.uni-potsdam.de/HyFISCH/Produzieren/lis_projekt/proj_gamelife/ConwayScientificAmerican.htm).
+
 
 Purpose
 ---
 
-This is a getting-started kind of assignment, intended to:
-
-- Remind you of some basic Java programming syntax and how to work with
-  Java source code.
-- Practice with the VS Code development environment, in particular with
-  running and debugging code.
-- Learn about the basics of unit tests, how they work, and why we write
-  them.
 - One major feature of this assignment is that you will *write* very
   little code, but you will need to *read* quite a bit of existing code
   and *think* about it. Moreover, you won't need to completely
-  understand all the existing code in order to make your changes. This
+  understand all of the existing code in order to make your changes. This
   kind of task -- making a small change to a large existing
   codebase[^brownfield] -- is very common in software development and is
   an import skill to develop.
 
-A secondary goal here is to:
+- You will learn more about unit tests, how they work, and why we write them.
 
-- Get your feet wet doing some experiments with modifying and writing
-  new code. The aim is for you to develop some autonomy and a spirit of
-  having fun and doing bold experiments.
+- You will practice modifying and experimenting with someone else’s code.
+  The aim is for you to develop some autonomy and a spirit of having fun and
+  doing bold experiments.
+
+- You will see how simple rules in software can create fascinating results,
+  which will hopefully inspire you in future experiments of your own.
 
 [^brownfield]: Changing an existing codebase in a way that preserves
-    most of its behavior, structure, and so on, is called "[brownfield
+    most of its behavior, structure, and so on, is sometimes called "[brownfield
     development](https://en.wikipedia.org/wiki/Brownfield_(software_development))"
     in analogy to building construction on a site with existing
     development or pollution that needs to be dealt with.
@@ -60,14 +56,6 @@ A secondary goal here is to:
     and otherwise, that is not accounted for by traditional capitalist
     markets and pricing mechanisms...)
 
-Assessment
----
-
-This is a take-home assignment and we'll follow the rubric from the
-syllabus for these assignments.
-
-Review the checklist in [the self evaluation](SELF_EVALUATION.md) to see
-if you've addressed the main purpose and goals.
 
 Overview
 ---
@@ -83,6 +71,7 @@ and some hopefully-fun optional tasks related to:
 
 - Altering the behavior of the graphical board.
 - Altering the underlying rules for the Game of Life
+
 
 Running the tests
 ---
@@ -149,3 +138,11 @@ If you've made it this far, congratulations!  As an extra challenge, try to impr
 - What color are the alive cells painted right now?
 - Where is that color specified in the `paintComponent()` method?
 - Does the board have a method that can help you in calculating the number of live neighbors?
+
+
+Last Step: Don’t Forget!
+---
+
+Remember to review the checklist and answer the questions in [the self evaluation](SELF_EVALUATION.md).
+
+See the [Take-Home Exercise Procedure](https://comp127.innig.net/resources/take-home-procedure/#self-evaluation) for full instructions.
