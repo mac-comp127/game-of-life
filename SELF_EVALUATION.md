@@ -22,8 +22,7 @@
 
 ### Code Style
 
-Check these items from the [Comp 127 Style Guide]
-(https://comp127.innig.net/resources/style-guide/):
+Check these items from the [Comp 127 Style Guide](https://comp127.innig.net/resources/style-guide/):
 
 - all classes are in packages
 - package names start with a lowercase letter
@@ -63,5 +62,3 @@ sentence or two in response to each question is plenty.
 
 **What is something that was interesting or exciting, or a lesson you learned
   from this experience that you want to remember?**
-
-
