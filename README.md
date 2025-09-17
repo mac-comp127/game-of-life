@@ -29,7 +29,7 @@ Purpose
   understand all of the existing code in order to make your changes. This
   kind of task -- making a small change to a large existing
   codebase[^brownfield] -- is very common in software development and is
-  an import skill to develop.
+  an important skill to develop.
 
 - You will learn more about unit tests, how they work, and why we write them.
 
