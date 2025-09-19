@@ -20,6 +20,7 @@
 - [ ] (Optional) you implemented your own custom rules
 - [ ] (Optional) living cells are colored according to their number of neighbors
 
+
 ### Code Style
 
 Check these items from the [Comp 127 Style Guide](https://comp127.innig.net/resources/style-guide/):
@@ -31,10 +32,10 @@ Check these items from the [Comp 127 Style Guide](https://comp127.innig.net/reso
     - [ ] brief description of class, and
     - [ ] acknowledgement, if appropriate
 - [ ] identifier (variable and method) names are descriptive
-- [ ] variable and method names are in lowerCamelCase (no CapitalizedNames,
-  names_with_underscores)
-- [ ] class names are singular nouns
-- [ ] class names are in UpperCamelCase
+- [ ] **variable** and **method** names are in lowerCamelCase (no CapitalizedNames, no names\_with\_underscores)
+- [ ] **class** names are singular nouns
+- [ ] **class** names are in UpperCamelCase
+- [ ] all instance variables are **private**
 - [ ] proper indentation:
     - [ ] opening curly braces (“{”) are at the end of the line
     - [ ] closing curly braces (“}”) are on their own line
